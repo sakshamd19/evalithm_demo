@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSIT College ERP Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    
+    <main class="login-container">
+        <header class="login-header">
+            <div class="header-left">
+                <div class="logo-box"></div>
+                <div class="title-container">
+                    <h1 class="main-title"><strong>PSITCHE</strong> Kanpur</h1>
+                    <h2 class="sub-title">PSIT College of Higher Education</h2>
+                </div>
+            </div>
+            <div class="header-right">
+                <svg class="padlock-icon" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2C9.243 2 7 4.243 7 7V10H6C4.897 10 4 10.897 4 12V20C4 21.103 4.897 22 6 22H18C19.103 22 20 21.103 20 20V12C20 10.897 19.103 10 18 10H17V7C17 4.243 14.757 2 12 2ZM9 7C9 5.346 10.346 4 12 4C13.654 4 15 5.346 15 7V10H9V7ZM12 17C11.448 17 11 16.552 11 16C11 15.448 11.448 15 12 15C12.552 15 13 15.448 13 16C13 16.552 12.552 17 12 17Z"/>
+                </svg>
+            </div>
+        </header>
+
+        <form class="login-form">
+            <div class="input-group">
+                <input type="text" placeholder="User ID / Roll Number" required>
+            </div>
+            
+            <div class="input-group password-group">
+                <input type="password" placeholder="Password" id="password-input" required>
+                <button type="button" class="toggle-password" aria-label="Toggle password visibility">
+                    <svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="eye-icon">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                    </svg>
+                </button>
+            </div>
+
+            <button type="submit" class="btn btn-signin">Sign in</button>
+        </form>
+
+        <div class="action-links">
+            <button class="btn btn-secondary btn-forgot">
+                <span>Forgot/ Change Password</span>
+                <span class="arrow">→</span>
+            </button>
+            <button class="btn btn-secondary btn-new-user">
+                <span>Create New User ( New Registration )</span>
+                <span class="arrow">→</span>
+            </button>
+            <button class="btn btn-secondary btn-parent">
+                <span>Create Parent Login</span>
+                <span class="arrow">→</span>
+            </button>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

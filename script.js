@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Handle form submission (prevent default and show a demo alert)
+    // Handle form submission and redirect to dashboard
     loginForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        alert('Sign In button clicked. This is a demo.');
+        window.location.href = 'dashboard.html';
     });
 
     // Handle secondary buttons

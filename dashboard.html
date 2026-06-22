@@ -146,9 +146,9 @@
                 <svg viewBox="0 0 24 24"><path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/></svg>
                 <span>My Library</span>
             </div>
-            <div class="grid-item logout">
-                <svg viewBox="0 0 24 24"><path d="M13 3h-2v10h2V3zm4.83 2.17l-1.42 1.42C17.99 7.86 19 9.81 19 12c0 3.87-3.13 7-7 7s-7-3.13-7-7c0-2.19 1.01-4.14 2.58-5.42L6.17 5.17C4.23 6.82 3 9.26 3 12c0 4.97 4.03 9 9 9s9-4.03 9-9c0-2.74-1.23-5.18-3.17-6.83z"/></svg>
-                <span>Logout</span>
+            <div class="grid-item ai-analyzer">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+                <span>AI Analyzer</span>
             </div>
         </div>
 
@@ -159,8 +159,8 @@
     </aside>
 
     <script>
-        document.querySelector('.logout').addEventListener('click', () => {
-            window.location.href = 'index.html';
+        document.querySelector('.ai-analyzer').addEventListener('click', () => {
+            alert('AI Analyzer activated!');
         });
     </script>
 </body>

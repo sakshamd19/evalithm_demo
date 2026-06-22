@@ -332,13 +332,13 @@ body {
     fill: #555;
 }
 
-.grid-item.logout {
-    background-color: #b0bec5;
-    color: #333;
+.grid-item.ai-analyzer {
+    background: linear-gradient(135deg, #a8c0ff, #3f2b96);
+    color: white;
 }
 
-.grid-item.logout svg {
-    fill: #333;
+.grid-item.ai-analyzer svg {
+    fill: white;
 }
 
 @media (max-width: 768px) {
